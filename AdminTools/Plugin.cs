@@ -15,7 +15,7 @@ namespace AdminTools
 		public override string Name { get; } = "Admin Tools";
 		public override string Prefix { get; } = "AT";
 		public override Version Version { get; } = new Version(1, 4, 0);
-		public override Version RequiredExiledVersion { get; } = new Version(2, 0, 0);
+		public override Version RequiredExiledVersion { get; } = new Version(3, 0, 0);
 		public EventHandlers EventHandlers;
 		public List<Jailed> JailedPlayers = new List<Jailed>();
 		public static Dictionary<Player, InstantKillComponent> IkHubs = new Dictionary<Player, InstantKillComponent>();
